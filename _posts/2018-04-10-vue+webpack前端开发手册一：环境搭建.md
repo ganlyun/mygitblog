@@ -1,5 +1,8 @@
-# vue+webpack前端开发手册一：环境搭建
-
+---
+layout: default
+---
+vue+webpack前端开发手册一：环境搭建
+====
 ## 1. 运行环境
 
 前端项目是在node环境下开发和测试的，最理想的运行环境是Linux和MacOS，但是目前考虑到我们的开发环境是windows所以选择了使用能在windows10上运行的Linux——WSL，当然，node也有windows的版本，这个是迫不得已的选项，因为项目在windows环境中可能碰到很多莫名的错误。
