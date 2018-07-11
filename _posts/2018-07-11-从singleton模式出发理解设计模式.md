@@ -1,10 +1,11 @@
 ---
-layout: default
+layout: post
 title: 从singleton模式出发理解设计模式
 tags: 
  - 设计模式
  - singleton pattern
 ---
+
 首先，我们直接来看书中提供的代码实现
 
 ```javascript
