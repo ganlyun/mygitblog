@@ -1,6 +1,7 @@
 ---
 layout: post
 title: module模式和revealing module（揭示模块）模式的区别
+author: ganlyun
 tags:
   - 设计模式
   - module pattern
