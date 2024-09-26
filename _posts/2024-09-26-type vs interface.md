@@ -2,6 +2,28 @@
 
 type即是类型别名，区别主要在于继承、被类实现、重新声明
 
+***
+
+看一个交叉类型的声明
+
+```ts
+interface InterfaceA {
+  id: number;
+  name: string;
+}
+
+interface InterfaceB {
+  id: string;
+  age: number;
+}
+
+type C = InterfaceA & InterfaceB
+```
+
+这种场景下C的id属性会被声明为never类型
+
+***
+
 在TypeScript中，`type`和`interface`都可以用来定义类型，但它们之间存在一些差异和各自的用途：
 
 1. **语法差异**：
